@@ -5,12 +5,12 @@
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  /* background-color: black; */
+  background-color: black;
 }
 .nav {
   display: flex;
   width: 100%;
-  /* background-color: black; */
+  background-color: black;
 }
 .company_nav {
   display: flex;
@@ -130,7 +130,7 @@
   border-top: 1px solid rgb(173, 173, 173);
 }
 .head_meet {
-  margin-left: 400px;
+  margin-left: 200px;
 }
 .land_div {
   display: flex;
@@ -139,7 +139,7 @@
   align-items: center;
 }
 .land_div2 {
-  background-color: rgb(68, 58, 85);
+  background-color: #3a454d;
   margin: 2%;
   padding-top: 5%;
   padding-bottom: 5%;
@@ -165,8 +165,10 @@
   border: 1px solid white;
   color: white;
   margin-left: 110%;
+  margin-top: 8%;
+  margin-bottom: 18%;
   padding: 1%;
-  width: 150px;
+  width: 134px;
   font-weight: bold;
 }
 .land_div3 p {
@@ -197,13 +199,14 @@
   padding-left: 10%;
 }
 .detail_img {
-  width: 100px;
-  height: 100px;
-  margin-left: 80px;
+  width: 70px;
+  height: 70px;
+  margin-left: 90px;
 }
 .detail_div1 {
   margin: 3%;
   width: 240px;
+  text-align: center;
 }
 .detail_div {
   display: grid;
@@ -264,7 +267,7 @@ img {
   color: #292f36;
   font-weight: 700;
   font-family: "Quattrocento Sans";
-  text-align: center;
+  /* text-align: center; */
 }
 .map_form{
     display: flex;
@@ -294,8 +297,8 @@ img {
 }
 
 .contact-containor {
-  width: 80%;
-  margin: auto;
+  /* width: 80%; */
+  margin-left: 250px;
 }
 .contact-containor > h1 {
   padding-left: 18px;
@@ -309,7 +312,7 @@ img {
   background-size: cover;
 }
 .form-containor {
-  width: 80%;
+  width: 70%;
   /* border: 1px solid red; */
   margin: auto;
   display: flex;
